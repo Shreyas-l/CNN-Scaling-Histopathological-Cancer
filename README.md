@@ -5,34 +5,25 @@
 
 <h3 align="center">This repository consists of my research work/publications</h3>
 
-## Paper 1
+## [RakshaNet: URL - Aware Malicious Website Classifier](https://ieeexplore.ieee.org/document/9478114)
 
-<p> Alzheimer's disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, eventually, the ability to carry out the simplest tasks. The symptoms mainly first appear in their mid-60s.
-
-We have built an app that aids the elderly in the following tasks.
+<p>Software revolution has resulted in a hyperbolic increase in internet browsing, making internet security a vital issue. Most naive users typically visit unknown websites, and due to their lack of awareness and software proficiency, malicious websites pose a significant threat to their data and security. This paper proposes a classification algorithm that determines whether a website is malicious or benign based on its application layer and network layer features. These features are extracted from the header and body of the HTTP/HTTPS request/response of a website, upon which the ML algorithm acts to determine whether the website is malicious. The client-server data can be intercepted using a proxy service, such as the Squid proxy, and the ML classifier runs as part of the Internet Content Adaptation Protocol (ICAP). If a website is determined as potentially malicious, the user shall be notified immediately and redirected back to the previous benign webpage. The URL parameters extracted include the Server name, DNS query time, TCP details, etc., which are chosen after extensive study of the contribution of these features (importance) to the classification. The study is performed on the decision tree and random forest supervised machine learning algorithms, and it is observed that the random forest algorithm is the most suitable ML classification methodology, achieving a test accuracy of 92%. The classification performance is visualized with the help of the confusion matrix and receiver operating characteristics curve (ROC), with an area under the curve (AUC) of 84%. Thus, this paper proposes an end-to-end software that utilises the random forest algorithm for the classification of websites as malicious or benign, and preempt users from accessing harmful websites.
 </p>
 
-## Paper 2
+## [Performance Analysis of Optimizers for Plant Disease Classification with Convolutional Neural Networks](https://ieeexplore.ieee.org/document/9487698)
 
-<p> Alzheimer's disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, eventually, the ability to carry out the simplest tasks. The symptoms mainly first appear in their mid-60s.
-
-We have built an app that aids the elderly in the following tasks.
+<p>Crop failure owing to pests & diseases are inherent within Indian agriculture, leading to annual losses of 15-25% of productivity, resulting in a huge economic loss. This research analyzes the performance of various optimizers for predictive analysis of plant diseases with a deep learning approach. The research uses Convolutional Neural Networks for the classification of farm/plant leaf samples of 3 crops into 15 classes. The various optimizers used in this research include RMSprop, Adam, and AMSgrad. Optimizers' Performance is visualized by plotting the Training and Validation Accuracy and Loss curves, ROC curves, and Confusion Matrix. The best performance is achieved using Adam optimizer, with the maximum validation accuracy being 98%. This paper focuses on the research analysis proving that plant diseases can be predicted and pre-empted using deep learning methodology with the help of satellite, drone-based or mobile-based images that result in reducing crop failure and agricultural losses.
 </p>
 
-## Paper 3
+## [Analysis of Dimensional Influence of Convolutional Neural Networks for Histopathological Cancer Classification](https://ieeexplore.ieee.org/document/9487582)
 
-<p> Alzheimer's disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, eventually, the ability to carry out the simplest tasks. The symptoms mainly first appear in their mid-60s.
-
-We have built an app that aids the elderly in the following tasks.
+<p>Convolutional Neural Networks can be designed with different levels of complexity depending upon the task at hand. This paper analyzes the effect of dimensional changes to the CNN architecture on its performance on the task of Histopathological Cancer Classification. The research starts with a baseline 10-layer CNN model with (3 X 3) convolution filters. Thereafter, the baseline architecture is scaled in multiple dimensions including width, depth, resolution, and a combination of all of these. Width scaling involves inculcating a greater number of neurons per CNN layer, whereas depth scaling involves deepening the hierarchical layered structure. Resolution scaling is performed by increasing the dimensions of the input image, and compound scaling involve a hybrid combination of width, depth, and resolution scaling. The results indicate that histopathological cancer scans are very complex in nature and hence require high-resolution images fed to a large hierarchy of Convolution, MaxPooling, Dropout, and Batch Normalization layers to extract all the intricacies and perform perfect classification. Since compound scaling the baseline model ensures that all three dimensions: width, depth, and resolution are scaled, the best performance is obtained with compound scaling. This research shows that better performance of CNN models is achieved by compound scaling of the baseline model for the task of Histopathological Cancer Classification.
 </p>
 
-## Paper 4
+## [Predictive Analysis of Diabetic Retinopathy with Transfer Learning](https://ieeexplore.ieee.org/document/9487789)
 
-<p> Alzheimer's disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, eventually, the ability to carry out the simplest tasks. The symptoms mainly first appear in their mid-60s.
-
-We have built an app that aids the elderly in the following tasks.
+<p>With the prevalence of diabetes, Diabetes Mellitus Retinopathy (DR) is becoming a major health problem across the world. The long-term medical complications arising due to DR significantly affect the patient as well as the society, as the disease mostly affects young and productive individuals. Early detection and treatment can help reduce the extent of damage to the patients. The rise of Convolutional Neural Networks for predictive analysis in the medical field paves the way for a robust solution to DR detection. This paper studies the performance of several highly efficient and scalable CNN architectures for Diabetic Retinopathy Classification with the help of Transfer Learning. The research focuses on VGG16, Resnet50 V2, and EfficientNet B0 models. The classification performance is analyzed using several performance measures including True Positive Rate, False Positive Rate, Accuracy, etc. Also, several performance graphs are plotted for visualizing the architecture performance including Confusion Matrix, ROC Curve, etc. The results indicate that Transfer Learning with ImageNet weights using VGG 16 model demonstrates the best classification performance with an accuracy of 95%. It is closely followed by ResNet50 V2 architecture with an accuracy of 93%. This paper shows that predictive analysis of DR from retinal images is achieved with Transfer Learning on Convolutional Neural Networks.
 </p>
-
 
 ## License
 
